@@ -1,4 +1,4 @@
- import os
+import os
 import cv2
 import streamlit as st
 from pytube import YouTube
@@ -85,7 +85,7 @@ def turn_into_story(summary):
   return model.invoke(prompt)
 
 #Streamlit UI
-st.title(" PragyanAI - YouTube/Uploaded Video Summarizer Using Groq LLM")
+st.title(" Chetan - YouTube/Uploaded Video Summarizer Using Groq LLM")
 st.image(" PragyanAI_Transparent.png")
 
 youtube_url = st.text_input("Paste a YouTube video URL:", placeholder="Https://www.youtube.com/watch?v=example")
