@@ -1,0 +1,10 @@
+striemlit
+langchain
+langchain_core
+lanhchain_community
+lanhchain_ollama
+opencv-python-headless
+langchain-groq
+groq
+pytube
+yt-dlp
